@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 // Note for prism child hierarchy
 // The first child of the emptyPrism gameObject needs to be the lightSpawn location
@@ -102,6 +102,7 @@ public class Prism : MonoBehaviour
                 lineRenderer.positionCount = lrCount;
                 lineRenderer.SetPosition(lrIndex, hit.point);
                 Debug.Log("Light has hit a gate");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
             }
         }
