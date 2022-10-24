@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mirror
   - Pushable
+  - Gate
   layers:
   - Default
   - TransparentFX

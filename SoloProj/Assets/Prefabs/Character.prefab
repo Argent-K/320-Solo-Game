@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 986535688}
   - component: {fileID: 986535689}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PhysCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,8 @@ GameObject:
   - component: {fileID: 698024778878066246}
   - component: {fileID: 698024778878066247}
   - component: {fileID: 698024778878066245}
-  m_Layer: 0
+  - component: {fileID: 1464761548}
+  m_Layer: 3
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +113,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &698024778878066245
 MonoBehaviour:
@@ -128,6 +129,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 698024778878066247}
+--- !u!114 &1464761548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698024778878066250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e3afb39314e6440ba6c6fa84b4f806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 0.6
+  boxMask:
+    serializedVersion: 2
+    m_Bits: 119
 --- !u!1 &698024779586319496
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 698024779586319499}
   - component: {fileID: 698024779586319498}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CharSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
