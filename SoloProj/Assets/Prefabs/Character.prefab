@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 986535688}
   - component: {fileID: 986535689}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: PhysCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 698024778878066247}
   - component: {fileID: 698024778878066245}
   - component: {fileID: 1464761548}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 698024779586319499}
   - component: {fileID: 698024779586319498}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: CharSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

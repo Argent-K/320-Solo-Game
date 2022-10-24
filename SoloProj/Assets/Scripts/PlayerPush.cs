@@ -36,7 +36,7 @@ public class PlayerPush : MonoBehaviour
         Debug.DrawLine(transform.position, transform.position + Vector3.up * transform.localScale.x * distance);
         Debug.DrawLine(transform.position, transform.position + Vector3.down * transform.localScale.x * distance);
 
-        if (hitRight.collider != null && isGrabbing == false && hitRight.collider.gameObject.tag == "Pushable" && Input.GetKey(KeyCode.Space))
+        if (hitRight.collider != null && isGrabbing == false && (hitRight.collider.gameObject.tag == "Pushable" || hitRight.collider.gameObject.tag == "Mirror") && Input.GetKey(KeyCode.Space))
         {
             box = hitRight.collider.gameObject;
 
@@ -44,7 +44,7 @@ public class PlayerPush : MonoBehaviour
             box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
             isGrabbing = true;
         }
-        else if (hitLeft.collider != null && isGrabbing == false && hitLeft.collider.gameObject.tag == "Pushable" && Input.GetKey(KeyCode.Space))
+        else if (hitLeft.collider != null && isGrabbing == false && (hitLeft.collider.gameObject.tag == "Pushable" || hitLeft.collider.gameObject.tag == "Mirror") && Input.GetKey(KeyCode.Space))
         {
             box = hitLeft.collider.gameObject;
 
@@ -52,7 +52,7 @@ public class PlayerPush : MonoBehaviour
             box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
             isGrabbing = true;
         }
-        else if (hitUp.collider != null && isGrabbing == false && hitUp.collider.gameObject.tag == "Pushable" && Input.GetKey(KeyCode.Space))
+        else if (hitUp.collider != null && isGrabbing == false && (hitUp.collider.gameObject.tag == "Pushable" || hitUp.collider.gameObject.tag == "Mirror") && Input.GetKey(KeyCode.Space))
         {
             box = hitUp.collider.gameObject;
 
@@ -60,7 +60,7 @@ public class PlayerPush : MonoBehaviour
             box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
             isGrabbing = true;
         }
-        else if (hitDown.collider != null && isGrabbing == false && hitDown.collider.gameObject.tag == "Pushable" && Input.GetKey(KeyCode.Space))
+        else if (hitDown.collider != null && isGrabbing == false && (hitDown.collider.gameObject.tag == "Pushable" || hitDown.collider.gameObject.tag == "Mirror") && Input.GetKey(KeyCode.Space))
         {
             box = hitDown.collider.gameObject;
 

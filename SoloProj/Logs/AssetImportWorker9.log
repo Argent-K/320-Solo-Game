@@ -1,0 +1,388 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Education' Language: 'en' Physical Memory: 16277 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\UnityHub\Unity Hub\Editors\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+F:/Repo/320-Solo-Game/SoloProj
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+55698
+Successfully changed project path to: F:/Repo/320-Solo-Game/SoloProj
+F:/Repo/320-Solo-Game/SoloProj
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 122.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path F:/UnityHub/Unity Hub/Editors/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Repo/320-Solo-Game/SoloProj/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     8012 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'F:/UnityHub/Unity Hub/Editors/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'F:/UnityHub/Unity Hub/Editors/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/UnityHub/Unity Hub/Editors/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/UnityHub/Unity Hub/Editors/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/UnityHub/Unity Hub/Editors/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003274 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 130.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (659ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (505ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (313ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006504 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Repo\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Repo\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 118.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1223ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1029ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (597ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5567 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.2 MB). Loaded Objects now: 6005.
+Memory consumption went from 217.2 MB to 216.1 MB.
+Total: 4.121600 ms (FindLiveObjects: 0.481500 ms CreateObjectMapping: 0.448600 ms MarkObjects: 2.758100 ms  DeleteObjects: 0.432700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19565.326370 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Environment/Gothic/Door_NoGround.png
+  artifactKey: Guid(b6afdeef3687315428a6482abfcd0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Environment/Gothic/Door_NoGround.png using Guid(b6afdeef3687315428a6482abfcd0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e14ec694a582f59ab537dad3ceadd4') in 0.121344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.609583 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Environment/Grungy/Car.png
+  artifactKey: Guid(e3aef1a80b4be2c4bbb9f135394fc9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Environment/Grungy/Car.png using Guid(e3aef1a80b4be2c4bbb9f135394fc9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcb8f1e9a7b0ca0009240226385279b') in 0.035581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Environment/Grungy/RoadTurn.png
+  artifactKey: Guid(0deb26d1d834d4e4eb5f80998a7d08c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Environment/Grungy/RoadTurn.png using Guid(0deb26d1d834d4e4eb5f80998a7d08c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1921d9973fc580838b4fd5a07086d25') in 0.043410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.472021 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Blue_Wide.png
+  artifactKey: Guid(c76f47f717e792941b9c97541a3a1ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Blue_Wide.png using Guid(c76f47f717e792941b9c97541a3a1ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385ce6633b80add4395ee7bc0b2b8558') in 0.022161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Wood_Small.png
+  artifactKey: Guid(8fa71125fb47e764db3eaad0cd306d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Wood_Small.png using Guid(8fa71125fb47e764db3eaad0cd306d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a33deb6e3f4bea931e6cb5ee77f8f35') in 0.026520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Uncolored.png
+  artifactKey: Guid(d58df5b5e36ba884f9c288a3020d48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Uncolored.png using Guid(d58df5b5e36ba884f9c288a3020d48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1d7eb1375c0a59cc966b0ded24b4c7') in 0.052726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Blue.png
+  artifactKey: Guid(6d86e7e8a8b8f4a4ea3a10d9dee509b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Blue.png using Guid(6d86e7e8a8b8f4a4ea3a10d9dee509b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bb55bce5465dd5b2fd8520287e3bb9') in 0.027093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Pink.png
+  artifactKey: Guid(1f6dbf787d3d8e84381791aa30d9c292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Pink.png using Guid(1f6dbf787d3d8e84381791aa30d9c292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a049d247091b55288eb1863a9d436e') in 0.029150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.286431 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Shapes/Circle.png
+  artifactKey: Guid(8f66c60fb167a0f4299a9865ef4badc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Shapes/Circle.png using Guid(8f66c60fb167a0f4299a9865ef4badc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5236a03319a6188bd38c9380452f48b') in 0.023911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Shapes/Ring.png
+  artifactKey: Guid(f7aaa971d41e8a447afd2674b898bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Shapes/Ring.png using Guid(f7aaa971d41e8a447afd2674b898bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526f7b41701b0b639cec98090eb040bb') in 0.024263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Shapes/Sugar.png
+  artifactKey: Guid(162c961f79f03a7419bae8455ff18508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Shapes/Sugar.png using Guid(162c961f79f03a7419bae8455ff18508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb1f3a48703f9266e114e556dc6d05c') in 0.021838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Shapes/Square.png
+  artifactKey: Guid(6858813d0f1f28b4cafee677b3e2e49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Shapes/Square.png using Guid(6858813d0f1f28b4cafee677b3e2e49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb80b839fb97764297e2107e89297e4f') in 0.045929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.651043 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Sounds/ButtonHover.wav
+  artifactKey: Guid(e7992d172691ce147bde04a9ea103f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Sounds/ButtonHover.wav using Guid(e7992d172691ce147bde04a9ea103f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c062c14d77150f6d8acf3f02ba9321') in 0.098011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Sounds/GruntVoice01.wav
+  artifactKey: Guid(558f9f56f603a954b8d45e17e89341d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Sounds/GruntVoice01.wav using Guid(558f9f56f603a954b8d45e17e89341d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49e70a6817559c893ff46a7763c1111') in 0.020227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Sounds/RespawnCountdown.wav
+  artifactKey: Guid(33469e3f01006ba44bdcfb56b0e3e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Sounds/RespawnCountdown.wav using Guid(33469e3f01006ba44bdcfb56b0e3e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf24997e1311b7a43edd449861cbe12') in 0.019565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Sounds/GruntVoice02.wav
+  artifactKey: Guid(2b6e306f144fd2047ad36490140f8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Sounds/GruntVoice02.wav using Guid(2b6e306f144fd2047ad36490140f8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429e7702fdfaa610fab1672fdd338ada') in 0.018891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Sounds/Explosion.wav
+  artifactKey: Guid(d1698dd553af8ef4d887bc83b9687173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Sounds/Explosion.wav using Guid(d1698dd553af8ef4d887bc83b9687173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c9b313493742dfa5ac178ffc1e78be') in 0.020553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.577944 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Weapons & Tools/Club.png
+  artifactKey: Guid(06140cc248b05d2488fbb6493ce5fd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Weapons & Tools/Club.png using Guid(06140cc248b05d2488fbb6493ce5fd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cad5690e4661747fbcc20afd1d697a') in 0.029123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Weapons & Tools/Sword.png
+  artifactKey: Guid(b2f3327f47464544293b6b9018e1296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Weapons & Tools/Sword.png using Guid(b2f3327f47464544293b6b9018e1296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae81b8a641c504870fcebfb07d707e8') in 0.035404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Weapons & Tools/Plow.png
+  artifactKey: Guid(72786b43084161c4c81e83eef0990e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Weapons & Tools/Plow.png using Guid(72786b43084161c4c81e83eef0990e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db650f040f21f7c2e14a457812f85bdb') in 0.030116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.106987 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Ground&Sky.png
+  artifactKey: Guid(e9b385355511d7a458cae8d8e592ed23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Environment/Stick Figure-like/Ground&Sky.png using Guid(e9b385355511d7a458cae8d8e592ed23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a6a65e38e71270dc4980fd564b9a01') in 0.142375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.798575 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Environment/Tiles/GroundTile.png
+  artifactKey: Guid(6b558f4b6b6cf9447a39de0812a0a3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Environment/Tiles/GroundTile.png using Guid(6b558f4b6b6cf9447a39de0812a0a3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0167d6e1cbcb9810e1de02e250a2815') in 0.025023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Environment/Tiles/PlatformerTiles.png
+  artifactKey: Guid(9d760526269e55b40898d45c96b2a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Environment/Tiles/PlatformerTiles.png using Guid(9d760526269e55b40898d45c96b2a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef264a89b04c78345cf01be98dc45d6e') in 0.037160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.962915 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Enemies/Gothic/GothicEnemy01.png
+  artifactKey: Guid(0430600dfe1dcf246b1f1324fe8be4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Enemies/Gothic/GothicEnemy01.png using Guid(0430600dfe1dcf246b1f1324fe8be4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c10885caf1c9f8a59aaa16ee65f329d') in 0.037135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Enemies/Gothic/GothicEnemy03.png
+  artifactKey: Guid(d064385dfce29934793208022539c6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Enemies/Gothic/GothicEnemy03.png using Guid(d064385dfce29934793208022539c6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa62f477bfa7770a33173fbd91a6d414') in 0.036903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.351056 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Enemies/Insects/GiantBeetle.png
+  artifactKey: Guid(dfe2da12be5f5994286f281b2cde6656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Enemies/Insects/GiantBeetle.png using Guid(dfe2da12be5f5994286f281b2cde6656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124da60bccf3a06fec4fe18f92bb7652') in 0.031725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.824134 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Characters/Blob Players/BlobPlayer_Pink.png
+  artifactKey: Guid(addd2af175d074643a3b1f29f6c23041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Characters/Blob Players/BlobPlayer_Pink.png using Guid(addd2af175d074643a3b1f29f6c23041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8982d09ab8d5be6a5676daf51494352') in 0.060871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.366278 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Characters/Fantasy/Commoner.png
+  artifactKey: Guid(4ae49494a73ff584099f601cb159abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Characters/Fantasy/Commoner.png using Guid(4ae49494a73ff584099f601cb159abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13338d48df8af2bf0b8551cd47217aac') in 0.025494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Characters/Fantasy/Troll.png
+  artifactKey: Guid(07f23995d5720bd4d9cd266799cef6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Characters/Fantasy/Troll.png using Guid(07f23995d5720bd4d9cd266799cef6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd7504d3434d25c8f4e9d92d039376f') in 0.023189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.361097 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Characters/Soldiers/SoldiersFront.png
+  artifactKey: Guid(db4367b3d41bdbb418fa7bdeea71e49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Characters/Soldiers/SoldiersFront.png using Guid(db4367b3d41bdbb418fa7bdeea71e49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11484d067b9a1218ab7bf2e6f49788cd') in 0.025709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.808408 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Characters/Stickman/Stick_Head.png
+  artifactKey: Guid(bb9dc33af8cec2a499646621219565dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Characters/Stickman/Stick_Head.png using Guid(bb9dc33af8cec2a499646621219565dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06f2ff8f593c00949ffa4e513c35a3e') in 0.025561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.530950 seconds.
+  path: Assets/Brackeys/2D Mega Pack/-- Example Photos --/Dungeon Puzzle Example.png
+  artifactKey: Guid(a6a22e0c395be6049bb58c2edebd5c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/-- Example Photos --/Dungeon Puzzle Example.png using Guid(a6a22e0c395be6049bb58c2edebd5c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f3a0963e922ae8f3d4bb5079f31970') in 0.162533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Brackeys/2D Mega Pack/-- Example Photos --/Retro Platformer Example.png
+  artifactKey: Guid(10a0eaf66baf3454bbbba17ad579aec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/-- Example Photos --/Retro Platformer Example.png using Guid(10a0eaf66baf3454bbbba17ad579aec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd403fa47f1dd084df46125b97bfe9936') in 0.065248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Brackeys/2D Mega Pack/-- Example Photos --/Top-down Arcade Example.png
+  artifactKey: Guid(b883181ca5756c94b983ff371807da40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/-- Example Photos --/Top-down Arcade Example.png using Guid(b883181ca5756c94b983ff371807da40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c71f71195eb6ef2f7aef9f7ec4810a') in 0.031565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brackeys/2D Mega Pack/-- Example Photos --/Stick Figure Example.png
+  artifactKey: Guid(53957bfc90a783f4690ebf0afa8a713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/-- Example Photos --/Stick Figure Example.png using Guid(53957bfc90a783f4690ebf0afa8a713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb32fb1e8b4f807132d03fd78d2c8391') in 0.166708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.621364 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Effects/Fireball.png
+  artifactKey: Guid(5ff9fd1dfa3921644a587a08e82b9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Effects/Fireball.png using Guid(5ff9fd1dfa3921644a587a08e82b9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5d3f723a984f5bd53b8a614c02e17a') in 0.032621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Effects/Muzzleflash3.png
+  artifactKey: Guid(729dd7a288cc6af4cac0edf25f4af631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Effects/Muzzleflash3.png using Guid(729dd7a288cc6af4cac0edf25f4af631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad57cfe9992fb05eb1bea757fdfd2461') in 0.027851 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

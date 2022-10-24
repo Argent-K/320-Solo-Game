@@ -19,7 +19,7 @@ public class Prism : MonoBehaviour
     private LineRenderer lineRenderer;
 
     // Variables that control how far the laser can travel
-    private const float MAX_LASER_DIST = 10.0f;
+    private const float MAX_LASER_DIST = 30.0f;
     private const int MAX_BOUNCES = 5;
 
     // Variables that control the LineRenderer's position list.
