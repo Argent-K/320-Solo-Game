@@ -26,6 +26,9 @@ public class Prism : MonoBehaviour
     private int lrIndex = 0;
     private int lrCount = 0;
 
+    // Reference to the GateManager
+    GateManager gateManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +36,10 @@ public class Prism : MonoBehaviour
         //lineRenderer = GetComponent<LineRenderer>();
         lineRenderer = GetComponentInChildren<LineRenderer>();
         lineRenderer.useWorldSpace = true;
+
+        // init gatemanager
+        gateManager = GameObject.FindGameObjectsWithTag("GateManager")[0].GetComponent<GateManager>();
+
     }
 
     // Update is called once per frame
@@ -102,7 +109,10 @@ public class Prism : MonoBehaviour
                 lineRenderer.positionCount = lrCount;
                 lineRenderer.SetPosition(lrIndex, hit.point);
                 Debug.Log("Light has hit a gate");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                hit.collider.GetComponentInParent<Gate>().lit = true;
+                gateManager.GateActivated();
+
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
             }
         }
