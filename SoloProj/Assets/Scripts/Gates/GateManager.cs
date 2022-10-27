@@ -9,9 +9,14 @@ public class GateManager : MonoBehaviour
     public List<Gate> gateList;
     private bool allGatesActivated = false;
 
-    [SerializeField]
-    private GameObject levelCompleteScreen;
-  
+    public GameObject levelCompleteScreen;
+
+    public void Start()
+    {
+        levelCompleteScreen = GameObject.Find("HYPE");
+        //levelCompleteScreen.SetActive(false);
+    }
+
     public void GateActivated()
     {
         allGatesActivated = true;
@@ -28,7 +33,7 @@ public class GateManager : MonoBehaviour
         if(allGatesActivated == true)
         {
             Debug.Log("Next Level");
-            levelCompleteScreen.SetActive(true);
+            levelCompleteScreen.transform.Find("GameUI").Find("LevelCompletePanelButActually").gameObject.SetActive(true);
         }
     }
 
@@ -36,5 +41,15 @@ public class GateManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Debug.Log(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

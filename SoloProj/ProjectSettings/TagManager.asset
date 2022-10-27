@@ -8,6 +8,7 @@ TagManager:
   - Pushable
   - Gate
   - GateManager
+  - LevelCompleteScreen
   layers:
   - Default
   - TransparentFX
