@@ -66,7 +66,7 @@ public class Prism : MonoBehaviour
         // beam will start from
         lrCount = 1;
         lineRenderer.positionCount = lrCount;
-        lineRenderer.SetPosition(0, transform.GetChild(0).position);
+        lineRenderer.SetPosition(0, transform.GetChild(0).position + Vector3.forward);
 
         // Loops through light calculation for a specified number of bounces to prevent infinite bounces from occuring
         for (int i = 0; i < MAX_BOUNCES; i++)
