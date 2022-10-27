@@ -9,14 +9,9 @@ public class GateManager : MonoBehaviour
     public List<Gate> gateList;
     private bool allGatesActivated = false;
 
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    [SerializeField]
+    private GameObject levelCompleteScreen;
+  
     public void GateActivated()
     {
         allGatesActivated = true;
@@ -33,7 +28,12 @@ public class GateManager : MonoBehaviour
         if(allGatesActivated == true)
         {
             Debug.Log("Next Level");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            levelCompleteScreen.SetActive(true);
         }
+    }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
