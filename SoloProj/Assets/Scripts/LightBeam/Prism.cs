@@ -29,6 +29,11 @@ public class Prism : MonoBehaviour
     // Reference to the GateManager
     GateManager gateManager;
 
+    // Reference to the gate that the laser previously hit
+    private GameObject hitObject;
+    // Is the gameObject getting hit
+    private bool hitting = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -80,6 +85,16 @@ public class Prism : MonoBehaviour
                 // Light beam didn't collide with anyObject, sets lineRenderer to MAX_LASER_DIST
                 lineRenderer.positionCount = lrCount;
                 lineRenderer.SetPosition(lrIndex, ray.GetPoint(MAX_LASER_DIST));
+
+                // Check to see if hitObject has been registered
+                if(hitObject != null)
+                {
+                    // Might have to change gatePrefab to have gate script on sprite
+                    hitObject.SendMessage("OnHitExit");
+                    hitting = false;
+                    hitObject = null;
+                }
+
                 break;
             }
             else if(hit.collider.tag != "Mirror" && hit.collider.tag != "Gate")
@@ -87,6 +102,13 @@ public class Prism : MonoBehaviour
                 // Light beam collides with a collider thats not a mirror or a gate
                 lineRenderer.positionCount = lrCount;
                 lineRenderer.SetPosition(lrIndex, hit.point);
+
+                if(hitObject != null)
+                {
+                    hitObject.SendMessage("OnHitExit");
+                    hitting = false;
+                    hitObject = null;
+                }
                 break;
             }
             else if(hit.collider.tag == "Mirror")
@@ -108,9 +130,38 @@ public class Prism : MonoBehaviour
                 // Light beam hits a gate and now will send a debug msg that it has hit a gate.
                 lineRenderer.positionCount = lrCount;
                 lineRenderer.SetPosition(lrIndex, hit.point);
-                Debug.Log("Light has hit a gate");
-                hit.collider.GetComponentInParent<Gate>().lit = true;
-                gateManager.GateActivated();
+
+                GameObject go = hit.transform.gameObject;
+
+                // The lightbeam hasn't hit anything yet
+                if (hitObject == null)
+                {
+                    go.SendMessage("OnHitEnter");
+                }
+                // Check to se if the hit object is the same as the registered object
+                else if(hitObject.GetInstanceID() == go.GetInstanceID())
+                {
+                    hitObject.SendMessage("OnHitStay");
+                }
+                // Hits new object but not the same object
+                else
+                {
+                    hitObject.SendMessage("OnHitExit");
+                    go.SendMessage("OnHitEnter");
+                }
+
+                hitting = true;
+                hitObject = go;
+
+
+
+                //hitObject = hit.collider.GetComponentInParent<GameObject>();
+                //
+                //hit.collider.GetComponentInParent<Gate>().lit = true;
+                //gateManager.GateActivated();
+
+
+
 
                 //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 break;

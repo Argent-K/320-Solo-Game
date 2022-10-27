@@ -406,7 +406,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1652623797, guid: 5fc0a09d45b560c46bb99a6dc2b90652, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5fc0a09d45b560c46bb99a6dc2b90652, type: 3}
 --- !u!1001 &606235160
 PrefabInstance:

@@ -15,7 +15,31 @@ public class Gate : MonoBehaviour
         gateManager = GameObject.FindGameObjectsWithTag("GateManager")[0].GetComponent<GateManager>();
         gateManager.gateList.Add(this);
 
-        
+
+    }
+
+    // Make sure to set the lit state to true
+    void OnHitEnter()
+    {
+        Debug.Log("OnHitEnter");
+        lit = true;
+        gateManager.GateActivated();
+    }
+
+    // Check to see if lit state is still true
+    void OnHitStay()
+    {
+        Debug.Log("OnHitStay");
+        if (lit == false)
+        {
+            lit = true;
+        }
+    }
+
+    void OnHitExit()
+    {
+        Debug.Log("OnHitExit");
+        lit = false;
     }
 
 }
