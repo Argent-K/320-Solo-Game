@@ -31,8 +31,6 @@ public class Prism : MonoBehaviour
 
     // Reference to the gate that the laser previously hit
     private GameObject hitObject;
-    // Is the gameObject getting hit
-    private bool hitting = false;
 
     // Start is called before the first frame update
     void Start()
@@ -91,7 +89,6 @@ public class Prism : MonoBehaviour
                 {
                     // Might have to change gatePrefab to have gate script on sprite
                     hitObject.SendMessage("OnHitExit");
-                    hitting = false;
                     hitObject = null;
                 }
 
@@ -106,7 +103,6 @@ public class Prism : MonoBehaviour
                 if(hitObject != null)
                 {
                     hitObject.SendMessage("OnHitExit");
-                    hitting = false;
                     hitObject = null;
                 }
                 break;
@@ -150,7 +146,6 @@ public class Prism : MonoBehaviour
                     go.SendMessage("OnHitEnter");
                 }
 
-                hitting = true;
                 hitObject = go;
 
 
