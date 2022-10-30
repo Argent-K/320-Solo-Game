@@ -941,3 +941,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1370.209169 seconds.
+  path: Assets/Textures/Backgroundtile.png
+  artifactKey: Guid(73d3778299c98054a9c5dacf4f7595ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Backgroundtile.png using Guid(73d3778299c98054a9c5dacf4f7595ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbe4bbb48a67c0102689026515a0400') in 0.101564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Box.png
+  artifactKey: Guid(53a3cdc998f3f534fb7fee6902820fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Box.png using Guid(53a3cdc998f3f534fb7fee6902820fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b17b96e49af336c34771f6cd31eddf') in 0.027466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/mirror.png
+  artifactKey: Guid(f72d0e4fde9507c438a3f0894385b08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mirror.png using Guid(f72d0e4fde9507c438a3f0894385b08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da58fecc95a0fa450b4f2f6f8ddb7f52') in 0.034837 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
