@@ -13,6 +13,7 @@ AssetImportWorker1
 -projectPath
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:/Profiles/bjc8253/320-Solo-Game/SoloProj
 -logFile
 Logs/AssetImportWorker1.log
@@ -20,6 +21,15 @@ Logs/AssetImportWorker1.log
 59939
 Successfully changed project path to: D:/Profiles/bjc8253/320-Solo-Game/SoloProj
 D:/Profiles/bjc8253/320-Solo-Game/SoloProj
+=======
+D:/IGMProfile/Documents/GitHub/320-Solo-Game/SoloProj
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50183
+Successfully changed project path to: D:/IGMProfile/Documents/GitHub/320-Solo-Game/SoloProj
+D:/IGMProfile/Documents/GitHub/320-Solo-Game/SoloProj
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 =======
 D:/IGMProfile/Documents/GitHub/320-Solo-Game/SoloProj
 -logFile
@@ -69,11 +79,19 @@ D:/IGMProfile/Documents/GitHub/320-Solo-Game/SoloProj
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 122.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Profiles/bjc8253/320-Solo-Game/SoloProj/Assets
+=======
+Refreshing native plugins compatible for Editor in 120.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/IGMProfile/Documents/GitHub/320-Solo-Game/SoloProj/Assets
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 =======
 Refreshing native plugins compatible for Editor in 120.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -101,7 +119,11 @@ Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBle
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
@@ -116,7 +138,11 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.006413 seconds.
+=======
+Registered in 0.006547 seconds.
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 =======
 Registered in 0.006547 seconds.
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
@@ -129,6 +155,7 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 117.39 ms, found 4 plugins.
@@ -156,11 +183,21 @@ Domain Reload Profiling:
 	ReloadAssembly (630ms)
 		BeginReloadAssembly (36ms)
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
+Refreshing native plugins compatible for Editor in 129.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (36ms)
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (486ms)
@@ -209,12 +246,29 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (85ms)
 				ProcessInitializeOnLoadMethodAttributes (42ms)
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
+		EndReloadAssembly (496ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (68ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.005027 seconds.
@@ -233,10 +287,17 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
+Registered in 0.004788 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 120.97 ms, found 4 plugins.
@@ -264,10 +325,20 @@ Domain Reload Profiling:
 	ReloadAssembly (1362ms)
 		BeginReloadAssembly (197ms)
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
+Refreshing native plugins compatible for Editor in 121.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1362ms)
+		BeginReloadAssembly (197ms)
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (117ms)
@@ -319,6 +390,23 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (247ms)
 				ProcessInitializeOnLoadMethodAttributes (94ms)
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
+			CreateAndSetChildDomain (137ms)
+		EndReloadAssembly (1060ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -329,12 +417,21 @@ Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5569 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 6024.
 Memory consumption went from 217.6 MB to 216.9 MB.
 Total: 3.739200 ms (FindLiveObjects: 0.592600 ms CreateObjectMapping: 0.189400 ms MarkObjects: 2.724000 ms  DeleteObjects: 0.232500 ms)
+=======
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5569 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 6024.
+Memory consumption went from 217.7 MB to 217.0 MB.
+Total: 3.847600 ms (FindLiveObjects: 0.625300 ms CreateObjectMapping: 0.191200 ms MarkObjects: 2.791500 ms  DeleteObjects: 0.239100 ms)
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 =======
 Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -365,6 +462,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Received Import Request.
   Time since last request: 46038.469625 seconds.
   path: Assets
@@ -380,6 +478,8 @@ Symbol file LoadedFromMemory doesn't match image D:\Profiles\bjc8253\320-Solo-Ga
 =======
 =======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.004416 seconds.
@@ -387,6 +487,9 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 =======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
@@ -394,6 +497,7 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
@@ -515,6 +619,8 @@ Domain Reload Profiling:
 =======
 =======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -535,6 +641,9 @@ Domain Reload Profiling:
 			RebuildScriptCaches (51ms)
 			SetupLoadedEditorAssemblies (472ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 =======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
@@ -542,6 +651,7 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (32ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (99ms)
@@ -561,6 +671,8 @@ Total: 3.556200 ms (FindLiveObjects: 0.537600 ms CreateObjectMapping: 0.150800 m
 =======
 =======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 				BeforeProcessingInitializeOnLoad (96ms)
 				ProcessInitializeOnLoadAttributes (244ms)
 				ProcessInitializeOnLoadMethodAttributes (93ms)
@@ -576,6 +688,9 @@ Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 6027.
 Memory consumption went from 207.7 MB to 207.0 MB.
 Total: 3.661800 ms (FindLiveObjects: 0.512300 ms CreateObjectMapping: 0.211300 ms MarkObjects: 2.680700 ms  DeleteObjects: 0.256900 ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 =======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
@@ -590,6 +705,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========================================================================
 <<<<<<< HEAD
@@ -1008,6 +1124,186 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005354 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 6030.
+Memory consumption went from 207.7 MB to 207.1 MB.
+Total: 3.782600 ms (FindLiveObjects: 0.542600 ms CreateObjectMapping: 0.182000 ms MarkObjects: 2.772900 ms  DeleteObjects: 0.284100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004237 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (935ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 6033.
+Memory consumption went from 207.7 MB to 207.1 MB.
+Total: 3.551000 ms (FindLiveObjects: 0.525100 ms CreateObjectMapping: 0.179800 ms MarkObjects: 2.602500 ms  DeleteObjects: 0.242700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004744 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\IGMProfile\Documents\GitHub\320-Solo-Game\SoloProj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (928ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 6036.
+Memory consumption went from 207.7 MB to 207.1 MB.
+Total: 3.549600 ms (FindLiveObjects: 0.522400 ms CreateObjectMapping: 0.169700 ms MarkObjects: 2.605600 ms  DeleteObjects: 0.251000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.004281 seconds.
@@ -1067,6 +1363,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
+=======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
 =======
 >>>>>>> a0d16ea0f817662c43318b87768c17fa033105bc
