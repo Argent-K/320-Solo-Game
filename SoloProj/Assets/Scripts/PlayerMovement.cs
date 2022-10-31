@@ -9,10 +9,21 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement;
 
+    public Animator animator;
+
     public GameObject gameUI;
     private bool isPaused = false;
+
+
+    Direction dir;
+    enum Direction
+    {
+        Up, Down, Left, Right
+    }
+
     private void Start()
     {
+        dir = Direction.Down;
         gameUI = GameObject.Find("HYPE");
     }
 
@@ -24,8 +35,40 @@ public class PlayerMovement : MonoBehaviour
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
+
+            
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.y);
+            animator.SetFloat("Speed", movement.sqrMagnitude);
+
+            if(Input.GetAxisRaw("Horizontal")==1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical")==-1)
+            {
+                animator.SetFloat("LastHorizontal", Input.GetAxisRaw("Horizontal"));
+                animator.SetFloat("LastVertical", Input.GetAxisRaw("Vertical"));
+            }
+
+            if (Input.GetAxisRaw("Horizontal") > 0)
+            {
+                dir = Direction.Right;
+                
+            }
+            if (Input.GetAxisRaw("Horizontal") < 0)
+            {
+                dir = Direction.Left;
+            }
+            if (Input.GetAxisRaw("Vertical") > 0)
+            {
+                dir = Direction.Up;
+            }
+            if (Input.GetAxisRaw("Vertical") < 0)
+            {
+                dir = Direction.Down;
+            }
+
         }
         
+
+
 
         if(Input.GetKeyDown(KeyCode.Escape))
         {
