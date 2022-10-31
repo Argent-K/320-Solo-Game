@@ -1593,6 +1593,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5039421445833969131, guid: a4eceb5c6f98bee4fa2b30bdff9b4843, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039421445833969131, guid: a4eceb5c6f98bee4fa2b30bdff9b4843, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039421445833969133, guid: a4eceb5c6f98bee4fa2b30bdff9b4843, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039421445833969133, guid: a4eceb5c6f98bee4fa2b30bdff9b4843, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039421445833969133, guid: a4eceb5c6f98bee4fa2b30bdff9b4843, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTiling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096435758674457586, guid: a4eceb5c6f98bee4fa2b30bdff9b4843, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6335762470421693062, guid: a4eceb5c6f98bee4fa2b30bdff9b4843, type: 3}
       propertyPath: m_Name
       value: Walls
